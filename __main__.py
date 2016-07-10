@@ -26,10 +26,10 @@ def main():
 	print("="*89)
 	
 	for i in range(1, wuerfelungen):
-		cube1 = random.randint(1, 6)
-		cube2 = random.randint(1, 6)
+		dice1 = random.randint(1, 6)
+		dice2 = random.randint(1, 6)
 
-		result = cube1 + cube2
+		result = dice1 + dice2
 
 		endResult[result] += 1
 		
